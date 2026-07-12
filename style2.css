@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.name{
+    margin-top: 50px;
+}
+.role{
+    margin-top: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+.section-one {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.role {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.section-one__contact {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.section-one__contact:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+}
+
+.hireme {
+    margin: 30px 0;
+}
+
+.hireme form table {
+    width: 100%;
+    border-spacing: 0 15px;
+}
+
+.hireme form table td:first-child {
+    font-weight: 600;
+    color: #444;
+    width: 100px;
+    font-size: 14px;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+    outline: none;
+}
+
+.contact-form__input:focus,
+.contact-form__textarea:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.contact-form__textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form__submit {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form__submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.section-seven__name {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    margin-top: 20px;
+}

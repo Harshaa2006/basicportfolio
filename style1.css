@@ -1,0 +1,287 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.section-one{
+    text-align:left;
+    color:black;
+}
+.section-two{
+    display: inline-block;
+    
+    
+}
+.section-two h3{
+      
+      display: inline-block;
+      width: 1px;
+      padding-top: 10px;
+      padding-left: 100px;
+      
+      color:black;
+    
+}
+.section-two h3:hover{
+    color: blueviolet;
+    
+}
+
+.section-three-hire{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+
+
+
+.container-one{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.558);
+}
+
+.section-three-hello{
+    padding-top: 100px;
+    padding-left: 50px;
+    color: rgb(108, 35, 176);
+}
+.section-three-name{
+    padding-left: 100px;
+}
+.section-three-detail{
+    padding-top: 5px;
+    padding-left: 50px;
+    color: rgb(108, 35, 176);
+}
+.section-three-para{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.section-four-work{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 1px;
+    border-radius:10px ;
+    background-color: blueviolet;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    
+    
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* icon um text um gap */
+  margin-top: 50px;
+  margin-left: 10px;
+  
+  padding: 14px 28px; /* mela keela 14px, side 28px */
+  font-size: 16px;
+  font-weight: 600; /* bold */
+  font-family: Arial, sans-serif;
+  
+  color: #1e293b; /* dark text color */
+  background: transparent; /* background illa */
+  border: 2px solid #475569; /* grey border */
+  border-radius: 12px; /* konjam round corner */
+  
+  text-decoration: none; /* underline remove */
+  cursor: pointer;
+  transition: all 0.3s ease; /* hover ku smooth effect */
+}
+
+/* MOUSE VAICHA ENNA AAGUM */
+.btn-outline:hover {
+  background: #475569; /* background grey aagum */
+  color: white; /* text white aagum */
+  transform: translateY(-2px); /* konjam mela poagum */
+}
+   
+
+.section-four{
+    display:flex;
+}
+.section-five-education{
+    color: blueviolet;
+}
+
+
+.section-five-10,.section-five-12,.section-five-bca{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.section-five-10explain,.section-five-12explain,.section-five-bcaexplain{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+
+.html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Navbar height + 30px extra */
+}
+
+.section#about {
+  min-height: 500px; /* Idhu dhan magic! */
+  padding: 80px 20px;
+}
+
+.image{
+    margin-top: 60px;
+    margin-left: 200px;
+
+}
+.about{
+    margin-left: 750px;
+    margin-right: 300px;
+} 
+.flex2{
+    display: flex;
+}
+
+
+
+/* BUTTON GROUP */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* SOLID BLUE BUTTON */
+.btn-solid {
+color: blueviolet;
+  color: white;
+  padding: 14px ;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-solid:hover {
+ color: #475569;
+  transform: translateY(-2px);
+}
+
+/* OUTLINE BUTTON */
+.btn-outline {
+  border: 2px solid #475569;
+  color: #1e293b;
+  padding: 14px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+.btn-outline:hover {
+  background: #475569;
+  color: white;
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 25px;
+}
+.social-icons a img {
+     width: 35px;
+     height: 28px;
+     transition: 0.3s;
+}
+.social-icons a img:hover{
+transform: scale(1.15);
+}
+
+.workresume{
+    display: flex;
+}
+
+.aboutflex{
+    display: flex;
+}
+
+.about-img{
+  margin-top:  100px;
+  margin-left: 250px;
+  
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+  margin:0 auto;
+  margin-top: 100px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  color: #1e293b;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #475569;
+  text-align:center;
+
+  
+}
+
+/* OUTLINE BUTTON */
+.readmore {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.readmore:hover {
+  background: #2563eb;
+  color: white;
+}
+.readmore1{
+    margin-top: 15px
+}
+.linkedin{
+    width: 10px;
+  
+    height: 10px;
+}
+.logo{
+    display: flex;
+    margin-left: 150px;
+}
+.skill{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.skilllogo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;         
+    margin-top: 20px;
+}
+.logo1{
+    margin-left: 20px;
+}

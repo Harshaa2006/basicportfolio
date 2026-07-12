@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HireMe</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="section-one">
+                <h2 class="name">HARSHAA G</h2>
+                <h4 class="role">MCA Student</h4>
+                <br>
+                <h5><a class="section-one__contact" href="portfolioself.html">Home</a></h5>
+            </div>
+            <div class="hireme">
+
+                <form id="contactForm"> <!-- 1. ID ADD PANITEN -->
+                    <table>
+                        <tr>
+                            <h3><td>Name</td></h3>
+                            <td>
+                                <input type="text" id="name" placeholder="Enter Your Name" class="contact-form__input" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <h3><td>Email</td></h3>
+                            <td>
+                                <input type="email" id="email" placeholder="Enter Your Email" class="contact-form__input" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <h3><td>Message</td></h3>
+                            <td>
+                                <textarea id="message" placeholder="Message" class="contact-form__textarea" required></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <h3><td></td></h3>
+                            <td>
+                                <input type="submit" value="Submit" class="contact-form__submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <h6 class="section-seven__name">@HARSHAA</h6>
+        </div> <!-- div close tag miss aagiruchu, add paniten -->
+    </center>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+          e.preventDefault();
+
+          let name = document.getElementById('name').value;
+          let email = document.getElementById('email').value;
+          let message = document.getElementById('message').value;
+
+          let whatsappNumber = "919003430745"; // INGA UN NUMBER PODU
+
+          let text = `New Contact from Portfolio%0A%0A
+*Name:* ${name}%0A
+*Email:* ${email}%0A
+*Message:* ${message}`;
+
+          let url = `https://wa.me/${whatsappNumber}?text=${text}`;
+          window.open(url, '_blank');
+        });
+    </script>
+</body>
+
+</html>
