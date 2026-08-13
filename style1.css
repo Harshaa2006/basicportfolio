@@ -285,3 +285,50 @@ transform: scale(1.15);
 .logo1{
     margin-left: 20px;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container-one {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .flex2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image img {
+    width: 200px !important;
+    height: 250px !important;
+  }
+  .aboutflex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-img img {
+    width: 80%;
+    height: auto;
+  }
+  .skilllogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .logo1 {
+    width: 50px;
+    height: 50px;
+  }
+  .workresume {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
